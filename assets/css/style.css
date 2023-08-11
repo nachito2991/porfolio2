@@ -438,10 +438,10 @@ a {
   background-color: #9cc4e4;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  margin-bottom: 0px;
-  z-index: 1; /* Agregado */
+  z-index: 0; /* Agregado */
+  height: 350vh;
 }
 .contenedor-ruta h2 {
   font-family: "Izayoi Monospaced", sans-serif;
@@ -457,13 +457,6 @@ a {
   background-color: #e9f2f9;
   font-family: "Code New Roman", sans-serif;
   font-size: 25px;
-}
-
-.contenedor-ruta {
-  opacity: 0;
-  animation-name: fade-in;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
 }
 
 footer {
