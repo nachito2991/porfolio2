@@ -1,0 +1,33 @@
+@import 'variables';
+
+footer {
+    background-color: $color-4;
+    height: 40vh;
+    display: flex;
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+a{
+    font-size: 20px;
+    text-align: start;
+    color: black;
+    font-weight:bold;
+    
+}
+img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+p{
+    font-family: $fuente-1;
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+}

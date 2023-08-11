@@ -1,0 +1,18 @@
+@import 'variables' ;
+
+.presentacion {
+    background-color: $color-5;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: $fuente-1;
+    p{
+        margin: 10px;
+    }
+}
+
+
+
