@@ -40,29 +40,51 @@
 
 @media only screen and (min-width: 992px) {
 
-.contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height: 100vh;
     
-    .info {
-        width: 50%;
-        font-size: 50px;
-    h2{
-        font-size: 70px;
-     
-    }
-    h4 {
-        font-size: 35px;
+    .contenedor {
+        background-color: $color-3;
+        height: 100vh;
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        text-align: center;
+        font-family: $fuente-1;
+        gap: 90px;
         
-    }
-}
-
-
-.links {
-    display: flex;
-    flex-direction: row;
+        
+        .info {
+            width: 50%;
+            margin: 10px;
+            
+            a{
+                font-size: 30px;
+                margin-top: 50px;
+                color: $color-1;
+                font-weight: bold;
+            }   
         }
+      
+    
+        h2 
+        {
+           margin-top: 25px;
+            font-size: 65px;
+            margin: 10px;
+        }
+        h4 
+        {
+            justify-content: center;
+            font-size: 35px;
+            margin: 10px;
+        }
+    
+ 
     }
+    .links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 }
