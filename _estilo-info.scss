@@ -26,3 +26,33 @@
 
 }
  @import 'estilo-boton';
+
+
+ @media only screen and (min-width: 992px) {
+
+  .informacion-personal {
+    display: flex;
+    background-color: $color-3;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 110vh;
+    
+   
+.card{
+  display: flex;
+    margin-top: 25px;
+    height: 700px;
+    width: 850px;
+ font-size: 25px;
+ background-color: wheat;
+ font-family: $fuente-2;
+ .card-title {
+    font-size: 25px;
+    }
+  }
+
+}
+
+ }

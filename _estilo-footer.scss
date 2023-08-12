@@ -4,11 +4,13 @@ footer {
     background-color: $color-4;
     height: 40vh;
     display: flex;
+    flex-direction: column;
 ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    margin-bottom: 15px;
 }
 a{
     font-size: 20px;
@@ -30,4 +32,10 @@ p{
     font-size: 20px;
     
 }
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
 }

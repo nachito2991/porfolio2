@@ -8,7 +8,7 @@
     justify-content: start;
     align-items: center;
     z-index: 0; /* Agregado */
-	height: 350vh;
+	  height: 380vh;
   
     h2 {
       font-family: $fuente-1;
@@ -25,15 +25,73 @@
       background-color: $color-3;
       font-family: $fuente-2;
       font-size: 25px;
+      
 
   }
 
   }
 
+  .tarjetas-ruta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+  
 
 
+  @media only screen and (min-width: 992px) {
 
 
+    .contenedor-ruta {
+      background-color: $color-2;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      z-index: 0; /* Agregado */
+      height: 230vh;
+
+    .tarjetas-ruta{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+      justify-content: center;
+      align-content: center;
+    }
+    
+      h2 {
+        font-family: $fuente-1;
+        font-weight: bold;
+        font-size: 45px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 40px;
+      }
+    
+      .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 650px;
+        height: 480px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: $color-3;
+        font-family: $fuente-2;
+        font-size: 25px;
+
+
+        img{
+          height: 300px;
+          width: 300px;
+       
+          
+        
+        }  
+    }
+  }
+}
 
 
 
